@@ -22,6 +22,8 @@ public class Post {
     @Column(nullable = false)
     private Date date = new Date();
 
+
+
     public Long getId() {
         return id;
     }
@@ -81,4 +83,6 @@ public class Post {
                 ", date=" + date +
                 '}';
     }
+
+
 }
